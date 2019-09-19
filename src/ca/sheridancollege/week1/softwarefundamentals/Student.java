@@ -9,7 +9,8 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
-
+    private int num;
+    
     /**
      * Get the value of name
      *
@@ -26,6 +27,20 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the num
+     */
+    public int getNum() {
+        return num;
+    }
+
+    /**
+     * @param num the no to set
+     */
+    public void setNum(int num) {
+        this.num = num;
     }
 
 }
