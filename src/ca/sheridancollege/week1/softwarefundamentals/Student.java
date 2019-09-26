@@ -7,9 +7,27 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 
 public class Student {
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
+    }
     
     private String name;
     private int num;
+    private String status;
+    
+    
+    
     
     /**
      * Get the value of name
